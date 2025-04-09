@@ -1,0 +1,59 @@
+*{
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #171717;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: #cfcfcf;
+    font-size: 5rem;
+    margin: 2rem;
+}
+
+.tile-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 5px;
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile{
+    width: 5rem;
+    height: 5rem;
+    font-size: 2rem;
+    border: 2px solid #5b5b5b;
+    color: #cfcfcf;
+}
+
+.keyboard{
+    margin: 2rem;
+    width: 100vh;
+}
+
+.btn{
+    width: 4rem;
+    height: 6rem;
+    margin: .3rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    background-color: #8f8c88;
+    color: #cfcfcf;
+    border: none;
+}
+
+.sp-btn{
+    width: 8rem;
+}
