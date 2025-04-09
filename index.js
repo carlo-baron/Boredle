@@ -32,7 +32,7 @@ delete_button.addEventListener("click", function () {
 document.addEventListener('keydown', function (event) {
     const key = event.key.toUpperCase();
 
-    const button = Array.from(document.querySelectorAll('.keyboard .btn')).find(btn => btn.textContent.toUpperCase() === key);
+    const button = Array.from(document.querySelectorAll('.btn')).find(btn => btn.textContent.toUpperCase() === key);
 
     if (button) {
         button.click();
